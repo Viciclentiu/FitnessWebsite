@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Echilibru</title>
+        <link rel="icon" type="image/ico" href="poze/fitness.ico">
+        <meta charset="UTF-8">
+        <meta name="description" content="Informatii despre fitness ">
+        <meta name="keywords" content="sala, fitness, sanatate">
+        <meta name="author" content="Prismareanu Vlad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="pagina_principala.css">
+        <script type="text/javascript"  defer src="fitness.js"></script>
+    </head>
+
+    <body>
+        <div id="cap"></div>
+        <header id="top">
+            <h1>Antrenament de Echilibru</h1>
+            <img src="poze/dumbbell.svg">
+        </header>
+        <main>
+              <nav id="meniu" style="margin-bottom: 10px ;margin-top:10px">
+
+                     <input type="checkbox" id="check" hidden>
+                    <div class="lista">
+                       
+                        <label for="check" class="icon">&#9776;</label>
+                        <h2> Tipuri de antrenament:</h2>
+                    </div>
+                    
+                    <ul>
+                        <li><a href="pagina_principala.html">Pagina Principala</a></li>
+                        <li><a href="Cardio.html">Cardiovascular</a></li>
+                        <li><a href="Rezistenta.html">Rezistenta</a></li>
+                        <li><a href="Echilibru.html">Echilibru</a></li>
+                        <li><a href="Mobilitate.html">Mobilitate/Flexibilitate</a> </li>
+                    </ul>
+
+                </nav>
+            <section class="info" style="margin-top: 10px; margin-bottom: 10px;">
+                <h3>Echilibrul in timp ce mergi, alergi, sari sau stai in picioare necesita masa musculara. Pe langa faptul ca iti ofera forta, muschii te ajuta sa iti mentii oasele si articulatiile aliniate, astfel incat sa ramai in pozitie verticala. Insa echilibrarea necesita si interactiunea a trei sisteme senzoriale primare: cel vizual, ceea ce vezi; cel somatosenzorial, care include receptori nervosi care iti permit sa simti si sa atingi lucruri si sa ai un simt al corpului in spatiu (proprioceptie); cel vestibular, un sistem mic, dar complex al urechii interne, care raspunde la gravitatie.</h3>
+            </section>
+            <section class="tipuri" style=" margin-bottom: 10px">
+                <h2>Cateva exercitii pentru echilibru</h2>
+                <ul>
+                    <li><a href="#Fandari" onclick="play('Fandari')"> Fandari </a></li>
+                    <li><a href="#Fandari-pendul" onclick="play('Fandari-pendul')">Fandari pendul</a></li>
+                    <li><a href="#Echilibru" onclick="play('Echilibru')">Echilibru pe un singur picior</a></li>
+                    <li><a href="#Mars" onclick="play('Mars')">Mars pe loc</a></li>
+                </ul>
+
+            </section>
+            <section class="video" style="margin-bottom:-10px">
+                <figure id="Fandari">
+                    <iframe width="400" height="320" 
+                    src="https://www.youtube.com/embed/ZREeaP9zz5U" 
+                    title="EXECUTA FANDARILE CORECT! ( 3 greseli comune )" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Fandari</figcaption>
+
+                </figure>  
+
+                <figure id="Fandari-pendul">
+                    <iframe width="400" height="320" 
+                    src="https://www.youtube.com/embed/8kp_5_jhNOc" 
+                    title="How to do a Pendulum Lunge - 20 Second Demo HIIT Exercise" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Fandari pendul</figcaption>
+                </figure>
+
+                <figure id="Echilibru">
+                    <iframe width="361" height="320" 
+                    src="https://www.youtube.com/embed/j9ljRMw_PQs" 
+                    title="Exercitiu echilibru trunchi inferior" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Echilibru pe un singur picior</figcaption>
+                </figure>
+                
+                
+            </section>
+            <section class="video" style="margin-bottom: 10px;">
+                <figure id="Mars">
+                    <iframe width="361" height="320" 
+                    src="https://www.youtube.com/embed/16oJspYFz7s" 
+                    title="Marching in place" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption> Mars pe loc</figcaption>
+                </figure>
+
+            </section>
+            
+        </main>
+        <footer id="subsol">
+            <h3>Sper ca v-a fost de ajutor</h3>
+            <h4>Contact:</h4>
+            <ul>
+                <li>Numar telefon: 0771118469</li>
+                <li>Email: vlad-ioan.prismareanu@s.unibuc.ro</li>
+            </ul>
+            <a href="#cap">Inapoi la pagina</a>
+        </footer>
+
+    </body>
+
+</html>

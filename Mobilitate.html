@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moblilitate</title>
+        <link rel="icon" type="image/ico" href="poze/fitness.ico">
+        <meta charset="UTF-8">
+        <meta name="description" content="Informatii despre fitness ">
+        <meta name="keywords" content="sala, fitness, sanatate">
+        <meta name="author" content="Prismareanu Vlad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="pagina_principala.css">
+        <script type="text/javascript"  defer src="fitness.js"></script>
+    </head>
+
+    <body>
+        <div id="cap"></div>
+        <header id="top">
+            <h1>Antrenament de Mobilitate</h1>
+            <img src="poze/dumbbell.svg">
+        </header>
+        <main>
+              <nav id="meniu" style="margin-bottom: 9px ;margin-top:10px">
+                     <input type="checkbox" id="check" hidden>
+                    <div class="lista">
+                       
+                        <label for="check" class="icon">&#9776;</label>
+                        <h2> Tipuri de antrenament:</h2>
+                    </div>
+                    
+                    <ul>
+                        <li><a href="pagina_principala.html">Pagina Principala</a></li>
+                        <li><a href="Cardio.html">Cardiovascular</a></li>
+                        <li><a href="Rezistenta.html">Rezistenta</a></li>
+                        <li><a href="Echilibru.html">Echilibru</a></li>
+                        <li><a href="Mobilitate.html">Mobilitate/Flexibilitate</a> </li>
+                    </ul>
+
+                </nav>
+            <section class="info" style="margin-top: 10px; margin-bottom: 10px;">
+                    <h3>
+                       
+                            Antrenamentele de mobilitate sunt esențiale pentru menținerea 
+                            unei bune sănătăți fizice și pentru îmbunătățirea performanței 
+                            în diverse activități fizice. Aceste exerciții ajută 
+                            la creșterea flexibilității, la îmbunătățirea 
+                            amplitudinii de mișcare a articulațiilor și la reducerea riscului de accidentări
+                      
+                    </h3>
+            </section>
+
+            <section class="tipuri" style="margin-top: 10px; margin-bottom: 10px;">
+                <h2>Mai jos sunt enumerate o lista de exercitii de mobilitate:</h2>
+                <ul>
+                    <li><a href="#Rotiri" onclick="play('Rotiri')">Rotirea articulatiilor</a></li>
+                    <li><a href="#Aplecari" onclick="play('Aplecari')">Aplecari</a></li>
+                </ul>
+            </section>
+
+            <section class="video" style="margin-top: 10px; margin-bottom: 10px;">
+                <figure id="Rotiri">
+                    <iframe width="400" height="320"
+                        src="https://www.youtube.com/embed/U1AX4RUUrSM"
+                        title="Exercitii de mobilitate si reabilitare coloana si umeri."
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                    <figcaption>Rotiri</figcaption>
+                </figure>
+                <figure id="Aplecari">
+                    <iframe width="400" height="320" 
+                    src="https://www.youtube.com/embed/NTRunSyXCPc" 
+                    title="Ora de Sport Workouts: exerciții de mobilitate cu Ioan" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
+                    <figcaption>Aplecari</figcaption>
+                </figure>
+            </section>
+           
+        </main>
+        <footer id="subsol">
+            <h3>Sper ca v-a fost de ajutor</h3>
+            <h4>Contact:</h4>
+            <ul>
+                <li>Numar telefon: 0771118469</li>
+                <li>Email: vlad-ioan.prismareanu@s.unibuc.ro</li>
+            </ul>
+            <a href="#cap">Inapoi la pagina</a>
+        </footer>
+
+    </body>
+
+</html>

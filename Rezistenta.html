@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+    <head>
+        <title>Rezistenta</title>
+        <link rel="icon" type="image/ico" href="poze/fitness.ico">
+        <meta charset="UTF-8">
+        <meta name="description" content="Informatii despre fitness ">
+        <meta name="keywords" content="sala, fitness, sanatate">
+        <meta name="author" content="Prismareanu Vlad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="pagina_principala.css">
+        <script type="text/javascript"  defer src="fitness.js"></script>
+    </head>
+
+    <body>
+        <div id="cap"></div>
+        <header id="top">
+            <h1>Antrenament de Rezistenta</h1>
+            <img src="poze/dumbbell.svg">
+        </header>
+        <main>
+              <nav id="meniu" style="margin-bottom: 9px ;margin-top:10px">
+
+                     <input type="checkbox" id="check" hidden>
+                    <div class="lista">
+                       
+                        <label for="check" class="icon">&#9776;</label>
+                        <h2> Tipuri de antrenament:</h2>
+                    </div>
+                    
+                    <ul>
+                        <li><a href="pagina_principala.html">Pagina Principala</a></li>
+                        <li><a href="Cardio.html">Cardiovascular</a></li>
+                        <li><a href="Rezistenta.html">Rezistenta</a></li>
+                        <li><a href="Echilibru.html">Echilibru</a></li>
+                        <li><a href="Mobilitate.html">Mobilitate/Flexibilitate</a> </li>
+                    </ul>
+
+                </nav>
+            <section class="info" style="margin-top: 10px;">
+                <h3>
+                    Antrenamentul este cunoscut drept si antrenament de forta 
+                    si are rolul de a creste forta fizica si masa musculara, 
+                    poate sa cuprinda exercitii facute cu greutati, isometrice, pliometrice.
+                </h3>
+
+            </section>
+            <section class="tipuri" style="margin-bottom: 10px;">
+                <h2>O lista de grupe de muschi implicate:</h2>
+                <ul>
+                    <li>Muschii pieptului</li>
+                    <li>Brate</li>
+                    <li>Muschii abdominali</li>
+                    <li>Umeri</li>
+                    <li>Muschii spatelui</li>
+                    <li>Picioare</li>
+                </ul>
+            </section>
+            <section class="tipuri" >
+                <h2>Exemple de exercitii:</h2>
+                <ul>
+                    <li style="margin-right: 10px;">Pentru piept:
+                        <ul>
+                            <li><a href="#Impins-bara" onclick="play('Impins-bara')">Impins la bara</a> </li>
+                            <li><a href="#Fluturari" onclick="play('Fluturari')">Fluturari</a> </li>
+                            <li><a href="#Impins-gantere" onclick="play('Impins-gantere')">Impins inclinat cu gantere</a></li>
+                            <li><a href="#Flotari" onclick="play('Flotari')">Flotari</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li style="margin-right: 10px;">
+                        Pentru Spate:
+                        <ul>
+                            <li><a href="#Tractiuni" onclick="play('Tractiuni')">Tractiuni la bara</a></li>
+                            <li><a href="#Helcometru" onclick="play('Helcometru')">Tractiuni la helcometru</a></li>
+                            <li><a href="#Ramat" onclick="play('Ramat')">Ramat cu bara</a> </li>
+                            <li><a href="#Ramat-scripete" onclick="play('Ramat-scripete')">Ramat la scripete</a></li>
+                            <li><a href="#Indreptari" onclick="play('Indreptari')">Indreptari</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-right: 10px;"> 
+                        Pentru muschii abdominali:
+                        <ul>
+                            <li><a href="#Abdomene" onclick="play('Abdomene')"> Abdomene</a></li>
+                            <li><a href="#Twist-Rusesc" onclick="play('Twist-Rusesc')">Twist Rusesc</a></li>
+                            <li><a href="#Plank" onclick="play('Plank')">Plank</a></li>
+                            <li><a href="#Ridicari" onclick="play('Ridicari')">Ridicarea picioarelor la paralele</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-right: 10px;">
+                        Pentru brate:
+                        <ul>
+                            <li><a href="#Bicep-curl" onclick="play('Bicep-curl')">Flexii pentru biceps cu gantere/haltera</a></li>
+                            <li><a href="#Hammer-curl" onclick="play('Hammer-curl')">Flexii ciocan</a></li>
+                            <li><a href="#Tricep-pushdown" onclick="play('Tricep-pushdown')">Extensii triceps cu sfoara</a></li>
+                            <li><a href="#Extensii-triceps" onclick="play('Extensii-triceps')">Extensii pentru triceps cu un brat in picioare</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-right: 10px;">
+                        Pentru picioare:
+                        <ul>
+                            <li><a href="#Presa-pentru-picioare" onclick="play('Presa-pentru-picioare')"> Presa pentru picioare</a></li>
+                            <li> <a href="#Genuflexiuni" onclick="play('Genuflexiuni')">Genuflexiuni</a></li>
+                            <li><a href="#Flexii-biceps-femural" onclick="play('Flexii-biceps-femural')"> Flexii pentru biceps femural</a></li>
+                            <li><a href="#Extensii-cvadriceps" onclick="play('Extensii-cvadriceps')">Extensii pentru cvadriceps</a> </li>
+                            <li><a href="#Ridicari-gambe" onclick="play('Ridicari-gambe')"> Ridicari de gambe</a></li>
+                        </ul>
+                        
+                    </li>
+
+                </ul>
+            </section>
+            <section class="exercitii" style="margin-top: 10px">
+                <h4>Exercitii piept</h4>
+                <div class="video">
+                
+                <figure id="Impins-bara">
+                    <iframe width="200" height="320" 
+                    src="https://www.youtube.com/embed/NciIsfoSTs8"
+                     title="IMPINS LA PIEPT CU BARA | TUTORIAL" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <figcaption>Impins la piept cu bara</figcaption>
+                </figure>
+                <figure id="Fluturari">
+                    <iframe width="200" height="320" src="https://www.youtube.com/embed/Ai6k50wUAq8" title="Exerciții pentru piept 🔝 | fluturări pentru piept la scripete » Pro Nutrition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Fluturari</figcaption>
+                </figure>
+                <figure id="Impins-gantere">
+                    <iframe width="200" height="320" src="https://www.youtube.com/embed/bILFXOZ-0TY" title="Cum să faci CORECT împins cu gantere pe plan înclinat?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Impins cu gantere</figcaption>
+                </figure>
+                <figure id="Flotari">
+                    <iframe width="200" height="320" src="https://www.youtube.com/embed/0-M8n57xq8c" title="TUTORIAL FLOTARI | CUM SA FACI PRIMA FLOTARE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Flotari</figcaption>
+                </figure>
+                </div>
+            </section>
+
+            <section class="exercitii" style="margin-top: 10px;">
+                    <h4>Exercitii spate</h4>
+                    <div class="video" >
+                        <figure id="Tractiuni" style="margin-left: -45px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/ytUGO2S6O_M" title="Invata sa faci tractiuni! 3 Pasi simpli/TonySaik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Tractiuni</figcaption>
+                        </figure>
+                        <figure id="Helcometru" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/gnb4VUk2l0E" title="CUM SA FACI CORECT HELCOMETRU ‼️#staidrept #helcometru #exercitiisala #gym" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Tractiuni la Helcometru</figcaption>
+                        </figure>
+                        <figure id="Ramat" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/cTWkBPkM68I" title="Ramat cu bara | Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Ramat cu bara</figcaption>
+                        </figure>
+                        <figure id="Ramat-scripete" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/UCXxvVItLoM" title="Seated Cable Row" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Ramat la scripete</figcaption>
+                        </figure>
+                        <figure id="Indreptari" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/LwvJ0-wtQSE" title="Indreptari cu bara - deadlift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Indreptari</figcaption>
+                        </figure>
+                    </div>
+            </section>
+
+            <section class="exercitii" style="margin-top: 10px; padding-left:25px">
+                    <h4>Exercitii abdomen</h4>
+                    <div class="video">
+                        <figure id="Abdomene">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/MKmrqcoCZ-M" title="How to Do a Stomach Crunch Properly | Gym Workout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Abdomene</figcaption>
+                        </figure>
+                        <figure id="Twist-Rusesc">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/wkD8rjkodUI" title="How to Do a Russian Twist | Ab Workout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Twist Rusesc</figcaption>
+                        </figure>
+                        <figure id="Plank">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/pvIjsG5Svck" title="Core Exercise: Plank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Plank</figcaption>
+                        </figure>
+                        <figure id="Ridicari">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/_RbBb28Ot2k" title="Leg raise abs - ridicari de picioare la paralele" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Ridicarea picioarelor la paralele</figcaption>
+                        </figure>
+                    </div>
+            </section>
+
+            <section class="exercitii" style="margin-top: 10px">
+                <h4>Exercitii brate</h4>
+                <div class="video">
+                    <figure id="Bicep-curl">
+                        <iframe width="200" height="320" src="https://www.youtube.com/embed/YNa3Oe_8n9E" title="Flexii cu bara dreapta pentru biceps | Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <figcaption>Flexii pentru biceps</figcaption>
+                    </figure>
+
+                    <figure id="Hammer-curl">
+                        
+                        <iframe width="200" height="320" src="https://www.youtube.com/embed/0BVT5Iby5EE" title="Biceps brahial  -  flexii ciocan cu ganterele" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <figcaption>Flexii ciocan</figcaption>
+
+                    </figure>
+
+                    <figure id="Tricep-pushdown" >
+                        <iframe width="200" height="320" src="https://www.youtube.com/embed/Hxstf7pezu0" title="triceps   extensii la scripete cu sfoara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <figcaption>Extensii triceps</figcaption>
+                    </figure>
+
+                    <figure id="Extensii-triceps" > 
+                        <iframe width="200" height="320" src="https://www.youtube.com/embed/2jl4M0Dnq4c" title="How to PROPERLY Single Arm Overhead Dumbbell Tricep Extension" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <figcaption>Extensii triceps cu gantera</figcaption>
+                    </figure>
+                </div>
+                
+            </section>
+
+            <section class="exercitii" style="margin-top: 10px; margin-bottom: 10px">
+                    <h4>Exercitii picioare</h4>
+                    <div class="video">
+                        <figure id="Presa-pentru-picioare" style="margin-left: -45px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/aP2Fk7jeDzg" title="Cum folosești corect presa pentru picioare? | Antrenament tren inferior – Motivation Gym" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Presa pentru picioare</figcaption>
+                        </figure>
+                        <figure id="Genuflexiuni" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/xdYL4RBrHOA" title="Cum Sa Faci Genuflexiuni Corecte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Genuflexiuni</figcaption>
+                        </figure>
+                        <figure id="Flexii-biceps-femural" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/FW9umxjTMK4" title="Cum folosești corect aparatul pentru flexii femurali? | Antrenament biceps femural – Motivation Gym" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Flexii pentru biceps femural</figcaption>
+                        </figure>
+
+                        <figure id="Extensii-cvadriceps" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/3jMZtTiv8SI" title="Cum folosești corect aparatul pentru extensii picioare? | Antrenament cvadriceps – Motivation Gym" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Extensii pentru cvatriceps</figcaption>
+                        </figure>
+                        
+                        <figure id="Ridicari-gambe" style="margin-left: -10px;">
+                            <iframe width="200" height="320" src="https://www.youtube.com/embed/hY3wh_eS7-0" title="Ridicari de gambe aparat jos)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <figcaption>Ridicari de gambe </figcaption>
+                        </figure>
+                    </div>
+            </section>
+        </main>
+
+        <footer id="subsol">
+            <h3>Sper ca v-a fost de ajutor</h3>
+            <h4>Contact:</h4>
+            <ul>
+                <li>Numar telefon: 0771118469</li>
+                <li>Email: vlad-ioan.prismareanu@s.unibuc.ro</li>
+            </ul>
+            <a href="#cap">Inapoi la pagina</a>
+        </footer>
+    </body>
+
+</html>
